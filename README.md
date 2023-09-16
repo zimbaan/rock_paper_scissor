@@ -1,1 +1,2 @@
-# rock_paper_scissor![Alt text](image.png)
+# rock_paper_scissor
+![Alt text](image.png)
