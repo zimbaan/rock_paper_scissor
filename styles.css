@@ -1,0 +1,95 @@
+
+body{
+  background-color:rgb(20, 20, 20);
+  color:white;
+  font-family: Arial;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  button{
+    display: inline-block;
+    justify-content: center;
+    align-items: center; 
+  }
+  .titleElement{
+  font-size: 30px;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  }
+  .move-button{
+  background-color: rgb(20, 20, 20);
+  border-radius: 100px;
+  padding:30px;
+  border:3px solid white;
+  margin:5px;
+  }
+  .button-icon{
+  border-radius: 100px;
+  border-color:white;
+  border-width: 5px;
+  border:none;
+  height:50px;
+  }
+  .result{
+  font-size: 25px;
+  font-weight:bold;
+  margin-top:50px;
+  }
+  .score{
+  margin-top:25px;
+  font-size: 18px;
+  }
+  .reset-button{
+  padding:8px 15px;
+  font-size:18px;
+  background-color: white;
+  border:none;
+  cursor:pointer;
+  align-items: center;
+  margin: 5px;
+  }
+
+  .auto-play{
+    padding:8px 15px;
+    font-size:18px;
+    background-color: white;
+    border:none;
+    cursor:pointer;
+    align-items: center;
+    margin: 5px;
+    }
+
+    .game{
+      justify-content: center;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .operation{
+      
+      justify-content: center;
+      align-items: center;
+    }
+    p{
+      margin: 15px;
+    }
+
+    .special-btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;    
+    }
+    .moves{
+      justify-content: center;
+      margin-top: 15px;
+    }
